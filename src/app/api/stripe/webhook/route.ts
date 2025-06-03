@@ -36,7 +36,7 @@ export const POST = async (request: Request) => {
         .parent as unknown as {
         subscription: string;
         subscription_details: {
-          metada: {
+          metadata: {
             userId: string;
           };
         };
